@@ -1,0 +1,19 @@
+#content {
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+}
+
+#objectives,
+#skills,
+#interests,
+#experience {
+    border: solid 1px red;
+    padding: 15px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    background-color: white;
+}
+
